@@ -1,0 +1,139 @@
+#project-main{
+	position: relative;
+	min-width: 1347px;
+	overflow: hidden;
+	margin-top: 2.6%;
+	
+}
+#project-main div{
+	float: left;
+	width: 33%;
+	margin-bottom: 0.5%;
+	overflow: hidden;
+	position: relative;
+}
+#project-main div img{
+	vertical-align: top;
+	width: 100%;
+	position: relative;
+	/*transition: all 1s;*/
+	left: 0%;
+}
+
+.project-m{
+	margin: 0 0.5%;	
+}
+.field{
+	position: relative;
+	width: 85.26%;
+	top: 10.5%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: none;
+	margin-top: 2.8%;
+	margin-bottom: 3.5%;
+}
+.field img{
+	width: 100%;
+	vertical-align: top;
+}
+.field-p1{
+	font-size: 30px;
+	padding-bottom: 3.8%;
+}
+.field-p2{
+	font-size: 18px;
+	padding-bottom: 2.8%;
+}
+.field-p3{
+	font-size: 12px;
+}
+.field-word{
+	position: absolute;
+	color: #f8f8f8;
+	width: 39.5%;
+	left: 6%;
+	bottom: 15%;
+}
+.field-bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.field-bottom li{
+	float: left;	
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	width: 15.6%;
+	background-color: #000000;
+	
+}
+ .field-bottom .yellow{
+ 	line-height:18px;
+	width:6%;
+	background-color: #dadf00;
+	font-size: 18px;
+	color: black;
+}
+ .field-bottom .yellow span {
+ 	display: block;
+ 	padding-top: 17px;
+}
+.border1{
+	border-right: 1px solid #4e4e4e;
+}
+.promask{
+	position: absolute;
+	background-color: black;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 666;
+	cursor: pointer;
+}
+.promask-p{
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	display: none;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 999;
+	height: 1em;
+	cursor: pointer;
+}
+.f2 li{
+	width: 13.35%;
+}
+#field-outer{
+	position: relative;
+	min-width: 1347px;
+}
+.back{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 6%;
+	height: 70px;
+	background-color:#dadf00;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	cursor: pointer;
+}

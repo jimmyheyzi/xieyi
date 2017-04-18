@@ -1,0 +1,118 @@
+#classify{
+	overflow: hidden;
+}
+#classify li{
+	float: left;
+	color: #c1c1c1;
+	margin-right: 5%;
+	cursor: pointer;
+}
+#classify li:hover{
+	color: #000000;
+	border-bottom: 2px solid #000000;
+}
+.cl{
+	color: #000000;
+	border-bottom: 2px solid #000000;
+}
+#intera-top{
+	width: 85.35%;
+	margin: 2.6% auto 0;
+}
+.intera-mid{
+	padding-top: 1.2%;
+	width: 100%;
+	overflow: hidden;
+}
+.intera-mid div{
+	float: left;
+}
+.mid-left{
+	width: 80.9%;
+	margin-right: 2%;
+}
+.mid-left img{
+	width: 100%;
+}
+.mid-right{
+	width: 17.1%;
+}
+.mid-right img{
+	width: 100%;
+	vertical-align: top;
+	margin-bottom: 2.04%;
+	cursor: pointer;
+}
+#intera-top p{
+	padding-top: 0.5%;
+	font-size: 14px;
+	color: #777777;
+}
+#body{
+	position: relative;
+	min-width: 1347px;
+}
+.body-mian{
+	width: 85.35%;
+	margin: 2.6% auto 0;
+}
+.yewu{
+	font-size: 24px;
+}
+.mian1-bottom{
+	overflow: hidden;
+}
+.mian1-bottom div{
+	width: 25.3%;
+	float: left;
+	text-align: center;
+	padding-top: 3.08%;
+	margin-right: 12%;
+}
+.mian2-bottom{
+	overflow: hidden;
+}
+.mian2-bottom div{
+	width: 17%;
+	float: left;
+	text-align: center;
+	padding-top: 3.08%;
+	margin-right: 10.6%;
+}
+#body-rigt{
+	margin-right: 0%;
+}
+#body-l{
+	margin-right: 0%;
+}
+.yewu1{
+	width: 90.37%;
+}
+.yewu2{
+	width: 77.66%;
+}
+.yewu3{
+	width: 51.5%;
+}
+.y-p{
+	font-size: 14px;
+	padding-top: 13.43%;
+}
+.mian1-bottom{
+	padding-bottom: 5.8%;
+}
+.mian2-bottom{
+	padding-bottom: 8.6%;
+}
+.y1{
+	width: 96.53%;
+}
+.y2{
+	width: 69.23%;
+}
+.y3{
+	width: 80.51%;
+}
+.y4{
+	width: 66.66%;
+}

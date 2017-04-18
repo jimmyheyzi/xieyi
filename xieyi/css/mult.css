@@ -1,0 +1,75 @@
+#bigimg{
+	position: relative;
+	min-width: 1347px;
+}
+#bigimg img{
+	display: block;
+	vertical-align: top;
+	width: 85.21%;
+	margin: 3% auto 0;
+}
+#mu-bar{
+	width: 85.21%;
+	height: 65px;
+	margin: auto;
+	overflow: hidden;
+}
+.mu-bar{
+	position: relative;
+	min-width: 1347px;
+}
+#mu-bar li{
+	float: left;
+	line-height: 65px;
+	color: #979797;
+	margin-right: 5.15%;
+}
+#mu-bar li span{
+	cursor: pointer;
+}
+#mu-bar li span:hover{
+	color: black;
+	border-bottom: 2px solid #000;
+}
+#mu-img{
+	position: relative;
+	min-width: 1347px;
+}
+.mu-main{
+	width: 85.21%;
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 12.09%;
+}
+.mu-main img{
+	float: left;
+	width: 33%;
+	margin-bottom: 0.5%;
+}
+.middle{
+	margin: 0 0.5%;
+}
+#mumask{
+	position: absolute;
+	display: none;
+	cursor: pointer;
+}
+#mumask img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+#bigimg .imgyellow{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 36px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}

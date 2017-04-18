@@ -1,0 +1,402 @@
+/*
+KISSY CSS Reset
+理念：清除和重置是紧密不可分的
+特色：1.适应中文 2.基于最新主流浏览器
+维护：玉伯(lifesinger@gmail.com), 正淳(ragecarrier@gmail.com)
+*/
+
+/* 清除内外边距 */
+pre, /* text formatting elements 文本格式元素 */body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置默认字体 */
+body,
+button, input, select, textarea { /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font-size: 16px;
+    font-family: "microsoft yahei",arial; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+body{
+	height: 100%;
+	width: 100%;
+}
+
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a { text-decoration: none; }
+
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before, q:after { content: ''; }
+
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px){
+	.nav li a{
+		font-size: 1.1em;
+	}
+	#bar-nav li{
+		font-size: 1.1em;
+	}
+	.mu-bar li span{
+		font-size: 1.1em;
+	}
+	#classify li{
+		font-size: 1.1em;
+	}
+	.product-bar li{
+		font-size: 1.1em;
+	}
+	.product-p{
+		font-size: 1.65em;
+	}
+	.product-p1{
+		font-size:0.96em;
+	}
+	.word-p{
+		font-size: 1.65em;
+	}
+	.one ul li{
+		font-size:0.96em;
+	}
+	.two-word{
+		font-size:0.96em;
+	}
+	#intera-top p{
+		font-size:0.96em;
+	}
+	.y-p{
+		font-size:0.96em;
+	}
+	.yewu{
+		font-size: 1.65em;
+	}
+	.footer-word-left ul{
+		font-size:0.82em;
+	}
+	.footer-word-left .footer-one{
+		font-size:0.96em;
+	}
+	.week{
+		font-size:0.82em;
+	}
+	.number{
+		font-size: 1.372em;
+	}
+	.copy{
+		font-size:0.82em;
+	}
+	.english{
+		font-size:0.82em;
+	}
+	.promask-p{
+		font-size: 1.23em;
+	}
+	.back{
+		font-size: 1.23em;
+	}
+	.field-bottom .yellow{
+		font-size: 1.23em;
+		line-height: 1em;
+	}
+	.field-bottom li{
+		font-size: 1.1em;
+	}
+	.field-p1{
+		font-size: 2.05em;
+	}
+	.field-p2{
+		font-size: 1.23em;
+	}
+	.field-p3{
+		font-size: 0.82em;
+	}
+}
+@media only screen and (min-width: 1600px) and (max-width: 1900px){
+	.nav li a{
+		font-size: 1.31em;
+	}
+	#bar-nav li{
+		font-size: 1.31em;
+	}
+	.mu-bar li span{
+		font-size: 1.31em;
+	}
+	#classify li{
+		font-size: 1.31em;
+	}
+	.product-bar li{
+		font-size: 1.31em;
+	}
+	.product-p{
+		font-size: 1.97em;
+	}
+	.product-p1{
+		font-size:1.15em;
+	}
+	.word-p{
+		font-size: 1.97em;
+	}
+	.one ul li{
+		font-size:1.15em;
+	}
+	.two-word{
+		font-size:1.15em;
+	}
+	#intera-top p{
+		font-size:1.15em;
+	}
+	.y-p{
+		font-size:1.15em;
+	}
+	.yewu{
+		font-size: 1.97em;
+	}
+	.footer-word-left ul{
+		font-size:0.98em;
+	}
+	.footer-word-left .footer-one{
+		font-size:1.15em;
+	}
+	.week{
+		font-size:0.98em;
+	}
+	.number{
+		font-size: 1.64em;
+	}
+	.copy{
+		font-size:0.98em;
+	}
+	.english{
+		font-size:0.98em;
+	}
+	.promask-p{
+		font-size: 1.48em;
+	}
+	.back{
+		font-size: 1.48em;
+	}
+	.field-bottom .yellow{
+		font-size: 1.48em;
+		line-height: 1em;
+	}
+	.field-bottom .yellow span{
+		padding-top: 15px;
+	}
+	.field-bottom li{
+		font-size: 1.31em;
+	}
+	.field-p1{
+		font-size: 2.47em;
+	}
+	.field-p2{
+		font-size: 1.48em;
+	}
+	.field-p3{
+		font-size: 0.98em;
+	}
+}
+@media only screen and (min-width: 1900px) and (max-width: 2200px){
+	.nav li a{
+		font-size: 1.53em;
+	}
+	.bar-nav li{
+		font-size: 1.53em;
+	}
+	#mu-bar li span{
+		font-size: 1.53em;
+	}
+	#classify li{
+		font-size: 1.53em;
+	}
+	.product-bar li{
+		font-size: 1.53em;
+	}
+	.product-p{
+		font-size: 2.28em;
+	}
+	.product-p1{
+		font-size:1.34em;
+	}
+	.word-p{
+		font-size: 2.28em;
+	}
+	.one ul li{
+		font-size:1.34em;
+	}
+	.two-word{
+		font-size:1.34em;
+	}
+	#intera-top p{
+		font-size:1.34em;
+	}
+	.y-p{
+		font-size:1.34em;
+	}
+	.yewu{
+		font-size: 2.28em;
+	}
+	.footer-word-left ul{
+		font-size:1.15em;
+	}
+	.footer-word-left .footer-one{
+		font-size:1.34em;
+	}
+	.week{
+		font-size:1.15em;
+	}
+	.number{
+		font-size: 1.92em;
+	}
+	.copy{
+		font-size:1.15em;
+	}
+	.english{
+		font-size:1.15em;
+	}
+	.promask-p{
+		font-size: 1.72em;
+	}
+	.back{
+		font-size: 1.72em;
+	}
+	.field-bottom .yellow{
+		font-size: 1.72em;
+		line-height: 1em;
+	}
+	.field-bottom .yellow span{
+		padding-top: 7px;
+	}
+	.field-bottom li{
+		font-size: 1.53em;
+	}
+	.field-p1{
+		font-size: 2.88em;
+	}
+	.field-p2{
+		font-size: 1.72em;
+	}
+	.field-p3{
+		font-size: 1.15em;
+	}
+}
+@media only screen and (min-width: 2200px) and (max-width: 2600px){
+	.nav li a{
+		font-size: 1.83em;
+	}
+	.bar-nav li{
+		font-size: 1.83em;
+	}
+	#mu-bar li span{
+		font-size: 1.83em;
+	}
+	#classify li{
+		font-size: 1.83em;
+	}
+	.product-bar li{
+		font-size: 1.83em;
+	}
+	.product-p{
+		font-size: 2.59em;
+	}
+	.product-p1{
+		font-size:1.6em;
+	}
+	.word-p{
+		font-size: 1.97em;
+	}
+	.one ul li{
+		font-size:1.6em;
+	}
+	.two-word{
+		font-size:1.6em;
+	}
+	#intera-top p{
+		font-size:1.6em;
+	}
+	.y-p{
+		font-size:1.6em;
+	}
+	.yewu{
+		font-size: 2.59em;
+	}
+	.footer-word-left ul{
+		font-size:1.37em;
+	}
+	.footer-word-left .footer-one{
+		font-size:1.6em;
+	}
+	.week{
+		font-size:1.37em;
+	}
+	.number{
+		font-size: 2.28em;
+	}
+	.copy{
+		font-size:1.37em;
+	}
+	.english{
+		font-size:1.37em;
+	}
+	.promask-p{
+		font-size: 1.97em;
+	}
+	.back{
+		font-size: 1.97em;
+	}
+	.field-bottom .yellow{
+		font-size: 1.7em;
+		line-height: 1em;
+	}
+	.field-bottom .yellow span{
+		padding-top: 7px;
+	}
+	.field-bottom li{
+		font-size: 1.83em;
+	}
+	.field-p1{
+		font-size: 3.29em;
+	}
+	.field-p2{
+		font-size: 1.97em;
+	}
+	.field-p3{
+		font-size: 1.31em;
+	}
+	
+}
